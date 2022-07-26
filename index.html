@@ -4,12 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/base.min.css" 
+    integrity="sha512-TbSbl7LIRNEKzATRyVAfAPIfRmd/2lMmh3YtkMELfpGSkUJP8CDxebT1XDw9LBU1N5vK+So58Goia0XlztByug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" 
+    integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Comfortaa&family=Forum&family=Jura:wght@300;500&display=swap" rel="stylesheet"> 
     <link href="/dist/output.css" rel="stylesheet">
     <title>parlgy</title>
   </head>
-  <body class="antialiased">
+  <body class="antialiased" style="font-family: 'Comfortaa';">
     <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 ">
       <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
@@ -123,7 +127,7 @@
 
 
 
-
+      
 
       <!-- Projects-->
 
@@ -131,45 +135,39 @@
       <section class="pb-20 bg-gray-900 text-white">
         <div class="container mx-auto px-4">
           <h1 class="md:text-center text-3xl font-bold py-4">Projects</h1>
-          <div class="flex flex-wrap">
-            <!-- Card 1 -->
-            <div class="lg:pt-8 pt-6 w-full md:w-6/12">
-              <div class="ml-auto mr-auto px-2">
-                <a href="/src/pages/rada.html"><img alt="..." class="rounded-lg shadow-lg" src="/assets/rada/rada.svg"/></a>
-              <div class="py-4">
-                <h2 class="text-left py-2 text-xl font-bold">Rada App</h2>
-                <p class="mb-4">RADA is a student developed mobile health application that helps students access information about sexual and reproductive health...</p>
-                </div>
-              </div>
-            </div>
 
-            <!-- Card 2 -->
-            <div class="lg:pt-8 pt-6 w-full md:w-6/12">
-              <div class="ml-auto mr-auto px-2">
-                <a href="/src/pages/bizup.html"><img alt="..." class="rounded-lg shadow-lg" src="/assets/bizup/ex1.png"/></a>
-              <div class="py-4">
-                <h2 class="text-left py-2 text-xl font-bold">Bizup Application</h2>
-                <p class="mb-4"></p>
-                </div>
-              </div>
+        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div class="grid gap-8 row-gap-5 mb-8 lg:grid-cols-2 lg:row-gap-8">
+            <div>
+              <a href="/src/pages/bizup.html">
+              <img class="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="/assets/bizup/ex1.png" alt="" />
+              <p class="mb-2 text-xl font-bold leading-none sm:text-2xl">
+                Bizup Application
+              </p>
+              <p class="text-gray-300">
+                An online platform helps business and service owners easily expand their market and in essence help students easily find services and products.
+              </p>
+              </a>
             </div>
-        </div>
-
-          <!-- Card 2 -->
-          <!-- <div class="lg:pt-8 pt-6 w-full md:w-6/12">
-            <div class="ml-auto mr-auto px-2">
-              <a href="/src/pages/magaribi.html"><img alt="..." class="rounded-lg shadow-lg" src="/assets/magharibi/Group 18.png"/></a>
-            <div class="py-4">
-              <h2 class="text-left py-2 text-xl font-bold">Magharibi Innovation Hub Website</h2>
-              <p class="mb-4">A website for an innovation hub</p>
-              </div>
+            
+            <div>
+              <a href="/src/pages/rada.html">
+              <img class="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="/assets/rada/rada.svg" alt="" />
+              <p class="mb-2 text-xl font-bold leading-none sm:text-2xl">
+                Rada Application
+              </p>
+              <p class="text-gray-300">
+                RADA is a student developed mobile health application that helps students access information about sexual and reproductive health, professional counseling...
+              </p>
+              </a>
             </div>
-          </div> -->
-      </div>
-          </div>
           </div>
         </div>
       </section>
+
+
+
+      
     </main>
 
 
